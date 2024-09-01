@@ -8,7 +8,7 @@ function App() {
       <div className="bg-base-100">
         <Navbar />
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-6">
-          {/* <MovieCard
+          <MovieCard
             src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
             title="SpiderMan"
           />
@@ -43,7 +43,7 @@ function App() {
           <MovieCard
             src="https://m.media-amazon.com/images/M/MV5BNGM0YTk3MWEtN2JlZC00ZmZmLWIwMDktZTMxZGE5Zjc2MGExXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg"
             title="HunterxHunter"
-          /> */}
+          />
         </div>
       </div>
       <Footer />
