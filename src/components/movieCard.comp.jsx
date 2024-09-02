@@ -10,6 +10,9 @@ function MovieCard({ src, title }) {
         <div className="card-actions justify-end">
           <button className="btn btn-primary">Watch</button>
         </div>
+        <div className="card-actions justify-end">
+          <button className="btn btn-primary">Buy now</button>
+        </div>
       </div>
     </div>
   );
